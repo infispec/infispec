@@ -12,6 +12,11 @@
     background-color: #00586C;
 }
 
+
+
+
+/* ----------------------------------- media Responsive ------------------------------------------------ */
+
 @media screen and (max-width: 1440px){
     .features .content h3{
         font-size: 1.28em;
@@ -40,6 +45,11 @@
     p{
         font-size: 1rem;
     }
+    
+    .footer{
+        font-size: 0.75em;
+        text-align: justify;
+    }
 }
 
 @media screen and (max-width: 425px){
@@ -58,5 +68,10 @@
 
     p{
         font-size: 1rem;
+    }
+
+    .footer{
+        font-size: 0.75em;
+        text-align: justify;
     }
 }
