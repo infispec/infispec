@@ -1,0 +1,119 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+body, h1, p, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Header styling */
+header {
+    background-color: rgba(65, 73, 89, 0.8);
+    color:black;
+    text-align: center;
+    padding: 1px;
+    height: 6em;
+}
+
+
+.logo{
+    width: 20%;
+    height: 20%;
+    margin-right: auto;
+}
+
+header .logo img{
+    height: 4em;
+}
+
+.container1{
+    display:flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.item{
+    background-color: #3ec1d5;
+    width: 150px;
+    height: 20px;
+    padding: 0.9rem;
+    border-radius: 10px;
+}
+
+ .item a {
+    color: #fff;
+    font-size:larger;
+    font-weight: 100;
+}
+
+.item:hover{
+    background-color: black;
+}
+
+/* Page content container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Job title */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Job type */
+p b {
+    color: #3498db;
+}
+
+/* Responsibilities and qualifications lists */
+ol {
+    margin-left: 20px;
+}
+.apply-now{
+    text-align:center;
+}
+/* Apply Now button */
+.apply-now button {
+    background-color: #3ec1d5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.apply-button {
+    text-align: center;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    font-weight: 10;
+
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Copyright text styling */
+footer span {
+    font-size: 14px;
+}

@@ -1,0 +1,62 @@
+.btn{
+    background-color: #008F27;
+    border-radius: 50px; 
+    color: #fff;
+}
+
+.btn a{
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #00586C;
+}
+
+@media screen and (max-width: 1440px){
+    .features .content h3{
+        font-size: 1.28em;
+    }
+
+    .btn{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .features .content h3{
+        font-size: 1.28em;
+    }
+
+    .btn{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .features .content h3{
+        font-size: 1.28em;
+    }
+
+    .content{
+        padding-bottom: 20px;
+    }
+
+    .btn{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+}

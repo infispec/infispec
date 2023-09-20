@@ -1,0 +1,21 @@
+.heading{
+    display: flex;
+    width: 100%;    
+    align-items: center;
+    flex-direction: column;
+}
+
+.features article h2{
+    text-align: center;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    font-style: uppercase;
+    font-size: 1.5em;
+    padding: 0px 20px;
+}
+
+.features article i{
+   font-size: 2em;
+}
