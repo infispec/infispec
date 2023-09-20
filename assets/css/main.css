@@ -4200,6 +4200,9 @@ center;
 	   padding-top: 6.5em;
     }
 
+#footer p{
+		justify-content: left;
+	}
 	#footer .inner {
 		display: -moz-flex;
 		display: -webkit-flex;
