@@ -1,0 +1,23 @@
+.wrapper:before, .wrapper:after{
+    content: none;
+}
+
+.wrapper{
+    margin: 3.5em 0;
+}
+
+.blog-heading{
+	display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.blog-image{
+	display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.content b{
+	color: black;
+}

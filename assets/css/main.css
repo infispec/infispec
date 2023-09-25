@@ -3776,7 +3776,7 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		background-color: #d998f5;
+		background-color: #EBCDBD;
 		background-image: var(--grad1);
 		
 		margin: 6.5em 0;
@@ -4187,6 +4187,42 @@ input, select, textarea {
 
 		}
 
+#blogs article{
+	padding-bottom: 14rem;
+}
+
+
+#blogs p{
+	padding-bottom: 2em;
+}
+
+#blogs .read-more{
+	position: absolute;
+    padding-top: 8rem;
+}
+
+#blogs .blog-link:hover {
+ color: black !important;
+}
+
+.blog-heading{
+	display: flex;
+    justify-content: center;
+}
+
+.blog-image{
+	display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.content b{
+	color: black;
+}
+
+
+
+
 /* Footer */
      
     #footer {
@@ -4240,10 +4276,9 @@ center;
 			display: inline-block;
 			gap: 2rem;
 			text-decoration: none;
-			margin: 2.5em 0 0 0;
-			padding: 0 0 0 3.25em;
 			position: relative;
 			color: #ffffff;
+			padding-right: 2em;
 		}
 		
 		.social-icons:hover .insta{
@@ -4252,19 +4287,22 @@ center;
 		.social-icons:hover .linkedin{
 			color: #0072b1;
 		}
-		.social-icons:hover .github{
-			color: #171515;
-		}
 
 		.social-icons i::before {
 			border-radius: 100%;
 			border: solid 2px rgba(255, 255, 255, 0.125);
-			font-size: 0.8em;
-			height: 2.5em;
+			height: 3em;
 			line-height: 2.35em;
 			position: absolute;
+			display: flex;
 			text-align: center;
-			width: 2.5em;
+			align-items: center;
+			justify-content: center;
+			width: 3em;
+		}
+
+		.social-icons i{
+			font-size: 1.1em;
 		}
 
 		.social-icons:hover i::before{

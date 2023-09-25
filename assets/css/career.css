@@ -53,9 +53,10 @@ header::after{
     top: 0;
     height: 15em;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0em 15em;
+    padding: 0em 15em;    
 }
 
 .job-title h1{
@@ -171,7 +172,7 @@ hr{
 }
 
 .apply-now button {
-    background-color: #3ec1d5;
+    background-color: #008F27;
     color: #fff;
     width: 200px;
     padding: 10px 20px;
@@ -191,9 +192,9 @@ hr{
 }
 
 .apply-button:hover{
-    border: 1px solid #3ec1d5;
+    border: 1px solid #008F27;
     background-color: #fff;
-    color: #3ec1d5;
+    color: #008F27;
 }
 
 /* Footer styling */
@@ -221,41 +222,36 @@ footer span {
         padding: 0em 10em;
     }
 
+
     .job-title h1{
         font-size: 60px;
     }
 }
 
-@media screen and (min-width: 425px){
+@media screen and (min-width:480px){
     
     .item {
         width: 200px;
         height: 30px;
     }
-
     .item a {
         font-size: 1.8rem;
     }
-
     .job-title{
         flex-direction: column;
         justify-content: space-evenly;
     }
-
     .job-title h1{
         font-size: 70px;
     }
-
     .button {
         width: 400px;
         height: 60px;
         font-size: 2rem;
     }
-
     .apply-now button {
         width: 100%;
     }
-
     .apply-button{
         font-size: 1.8rem;
     }
