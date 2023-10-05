@@ -3092,23 +3092,33 @@ input, select, textarea {
 					
 				}
 				.features article .info{
-					height: 300px;
-				}				
-				.features article summary{
-					padding-bottom: 0.9rem;
-					cursor: pointer;
+					height: fit-content;
+					margin-bottom: 0em;
 				}
 
 				.features h1.major{
 					padding-bottom: 0;
 				}
+
+				.features a{
+					font-size: 0.7em;
+				}
+
+				.project-content {
+					display: grid;
+					transition: padding-top 0.3s ease; /* Add a transition for smooth padding change */
+				}
+				.project-content.expanded {
+					padding-top: 0; /* Reduce top padding when expanded */
+				}
+
+				.features article a:hover{
+					color: #000 !important;
+				}
 		
-		@media screen and (max-width: 1440px){
+		@media screen and (min-width: 1440px){
 			.features article .image{
 				height: 300px;
-			}
-			.features article .info{
-				height: 180px;
 			}
 		}
 
@@ -3152,7 +3162,45 @@ input, select, textarea {
 					margin: 0 0 2em 0 !important;
 				}
 
+				.features article{
+					padding-bottom: 2em;
+				}
+
 		}
+#blogs article{
+	padding-bottom: 4rem;
+}
+
+
+#blogs p{
+	padding-bottom: 2em;
+}
+
+#blogs .read-more{
+	position: relative;
+}
+
+#blogs .blog-link:hover {
+ color: black !important;
+}
+
+.blog-heading{
+	display: flex;
+    justify-content: center;
+}
+
+.blog-image{
+	display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.content b{
+	color: black;
+}
+
+
+
 
 /* Header */
 
@@ -3669,7 +3717,7 @@ input, select, textarea {
 	#wrapper > header {
 		padding: 9em 0 10em 0 ;
 		background-color: #bbc4f4;
-		background-image: linear-gradient(to top, rgba(102, 122, 232, 0.8), rgba(162, 175, 252, 0.8)), url("../../images/bg3.jpeg");
+		background-image: linear-gradient(to top, rgba(102, 122, 232, 0.8), rgba(162, 175, 252, 0.8)), url("../../images/business-5475661_1280.jpg");
 		background-size: auto,
  cover;
 		background-position: center,
@@ -3733,7 +3781,7 @@ input, select, textarea {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #bbc4f4;
-			background-image: linear-gradient(to top, rgba(102, 122, 232, 0.8), rgba(162, 175, 252, 0.8)), url("../../images/bg3.jpeg");
+			background-image: linear-gradient(to top, rgba(102, 122, 232, 0.8), rgba(162, 175, 252, 0.8)), url("../../images/business-5475661_1280.jpg");
 			background-size: auto,
  cover;
 			background-position: center,
@@ -3791,11 +3839,11 @@ input, select, textarea {
 		}
 
 		.wrapper:before {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
 		}
 
 		.wrapper:after {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
 		}
 
 		.wrapper:before, .wrapper:after {
@@ -4139,42 +4187,6 @@ input, select, textarea {
 			}
 
 		}
-
-#blogs article{
-	padding-bottom: 14rem;
-}
-
-
-#blogs p{
-	padding-bottom: 2em;
-}
-
-#blogs .read-more{
-	position: absolute;
-    padding-top: 8rem;
-}
-
-#blogs .blog-link:hover {
- color: black !important;
-}
-
-.blog-heading{
-	display: flex;
-    justify-content: center;
-}
-
-.blog-image{
-	display: flex;
-    justify-content: center;
-    padding-bottom: 2em;
-}
-
-.content b{
-	color: black;
-}
-
-
-
 
 /* Footer */
      
