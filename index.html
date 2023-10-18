@@ -243,7 +243,7 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
-							<p>Elevate your business with our INFISPEC! We specialize in multiple sectors such as Education, Ecommerce , Healthcare, Pharma, Retail Construction Manufacturing and other businesses.Let's transform challenges into success. Contact us now for top-notch, personalized IT services that drive growth and innovation. Your success is our priority!</p>
+							<p>Elevate your business with our INFISPEC! We specialize in multiple sectors such as Education, Ecommerce , Healthcare, Pharma, Retail Construction Manufacturing and other businesses. Let's transform challenges into success. Contact us now for top-notch, personalized IT services that drive growth and innovation. Your success is our priority!</p>
 							<form method="post" action="https://formsubmit.co/contactinfispec@gmail.com">
 								<div class="fields">
 									<div class="field">
@@ -309,6 +309,7 @@
 					const info = content.querySelector('.info');
 					const info1 = content.querySelector('.info1');
 					const info2 = content.querySelector('.info2');
+					const info3 = content.querySelector('.info3');
 					
 					readMoreLink.addEventListener('click', function (e) {
 						e.preventDefault();
@@ -332,10 +333,14 @@
 							info1.style.paddingBottom = '1rem';
 							info2.style.paddingTop = '2rem';
 							info3.style.paddingBottom = '';
-						} else if (screenWidth <= 786) {
+						} else if (screenWidth <= 786 && screenWidth > 425) {
 							info1.style.paddingBottom = '1rem';
 							info2.style.paddingTop = '0rem';
 							info3.style.paddingBottom = '8em';
+						}else if (screenWidth <= 425){
+							info1.style.paddingBottom = '0rem';
+							info2.style.paddingTop = '0rem';
+							info3.style.paddingBottom = '2em';
 						} else {
 							info1.style.paddingBottom = '3rem';
 							info2.style.paddingTop = '5rem';
@@ -358,10 +363,14 @@
 						info1.style.paddingBottom = '1rem';
 						info2.style.paddingTop = '2rem';
 						info3.style.paddingBottom = '';
-					} else if (screenWidth <= 786) {
+					} else if (screenWidth <= 786 && screenWidth > 425) {
 						info1.style.paddingBottom = '1rem';
 						info2.style.paddingTop = '0rem';
 						info3.style.paddingBottom = '8em';
+					} else if (screenWidth <= 425){
+						info1.style.paddingBottom = '0rem';
+						info2.style.paddingTop = '0rem';
+						info3.style.paddingBottom = '2em';
 					} else {
 						info1.style.paddingBottom = '3rem';
 						info2.style.paddingTop = '5rem';
