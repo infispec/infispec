@@ -4,6 +4,7 @@
 
 .wrapper{
     margin: 3.5em 0;
+    background-color: #c5dedd;
 }
 
 .blog-heading{
@@ -23,6 +24,7 @@
     border-radius: 4px;
     filter: drop-shadow(0.5rem 0.8rem 1rem rgb(71, 70, 70));
 }
+
 
 .content b{
 	color: black;
